@@ -1,0 +1,113 @@
+.header
+{
+    display: inline;
+    background-color: rgb(250, 193, 123);
+}
+
+#head{
+    padding: 50px;
+    color: rgb(77, 29, 29);
+    background-color: bisque;
+}
+p{
+    padding: 15px;
+    margin: 5px;
+}
+h3{
+    padding: 10px;
+    margin: 3px;
+    color: rgb(77, 29, 29);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#nav
+{
+    background-color: rgb(77, 29, 29);
+}
+.btn{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:white;
+    background-color: rgb(77, 29, 29);
+    font-weight: bold;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: rgb(197, 194, 194);
+    color:black;
+}
+.header img{
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+.image img{
+    height: 400px;
+    width: 300px;
+    float :center;
+}
+.body{
+    background-color: rgb(240, 176, 92);
+}
+#banner{
+    height: 500px;
+    width: 100%;
+}
+
+.imgab{
+    padding: 10px;
+    margin: 5px;
+    display: inline;
+}
+.image{
+    background-color: whitesmoke;
+}
+.DEPARTMENT{
+    display: block;
+}
+
+.row {
+    margin: 10px -18px;
+  }
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  .column img{
+      height: 200px;
+      width: 350px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    height: 250px;
+    width: 380px;
+  }
+  h3,h4{
+      padding: 8px;
+      margin: 3px;
+  }

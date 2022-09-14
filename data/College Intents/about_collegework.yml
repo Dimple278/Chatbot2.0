@@ -1,0 +1,408 @@
+version: "2.0"
+
+nlu:
+- intent: forms
+  examples: |
+    - can I get from
+    - where can I get forms
+    - do you have  any form
+    - give me forms
+    - Form No. S- 52
+    - Alumni Membership Form
+    - Form No. S- 51
+    - No Dues Form
+    - S_11- Re- Ex- student
+    - Registration Form
+    - Form S- 39
+    - Form No. S- 27
+    - Form No. S- 26
+    - Bank Challan Form
+    - Form S-26
+    - Permission for participating in TF- Cult- sports
+    - Form S-29
+    - Form S-28
+    - Form S-27
+    - Form No. S2
+    - Income Tax Rebate
+    - Form No. S 46
+    - Indemnity Form
+    - Form No. S-18
+    - Refund/ Adjust Excess Amount
+    - Application for Financial Assistance from Benevolent Fund
+    - Form No. 2
+    - Application For Providing Tution Fee Details
+    - Form No. S54
+    - Transfer Certificate
+    - Form No. S 53
+    - Provisional Certificate
+    - Form No. S 52
+    - Alumni Membership Form
+    - Form No. S 51
+    - No Dues Form
+    - Form No. S 38
+    - Hostel Registration Form
+    - Form No. S 34
+    - Undertaking by Parents
+    - Form No. S 32
+    - Application for Collection of Pending Degrees or Marksheets
+    - Form No. S 31
+    - Discrepancy in Marksheet
+    - Form No. S 30
+    - Hostel Admission Withdrawal
+    - Form No. S 25
+    - Student Appear in Sessional Pre Univ. Exam
+    - Form No. S 24
+    - Feedback Form
+    - Form No. S 23
+    - Revised Hostel Security Refund
+    - Form No. S 22
+    - Form of Reward for Securing 75% Above Marks
+    - Form No. S 19
+    - Final Academic Fee Installment
+    - Form No. S 14
+    - Application for HTL Admission Old Students
+    - Form No. S 12
+    - Branch Change
+    - Form No. S 17
+    - Hostel Withdrawal Mid Sem 33
+    - Form No. S 14
+    - Application for HTL Admission Old Students
+    - Form No. S 12
+    - Branch Change
+    - Form No. S 10
+    - Railway Concession Form
+    - Form No. S 3
+    - Education Loan
+    - Form No. S 1
+    - Bonafide Certificate
+    - Form S-29
+    - Form S-26
+    - Permission for participating in TF- Cult- sports
+
+
+- intent: alumini
+  examples: |
+    - alumini
+    - almuni
+    - alamuni
+    - what is AAA
+    - aaa
+    - about AAA
+    - about alumini
+    - about alumini association
+    - tell me about alumini association
+    - glbitm alumini
+    - AAA
+    - what is alumini association
+    - do you have any alumini page
+    - who are alumini
+    - Im alumini
+    - take me to alumini portal
+    - alumini portal
+    - Alumini Portal
+    - ALUMINI PORTAL
+    - show me alumini portal
+    - where is alumini portal
+    - is there any portal for alumini
+    - how is alumini portal
+    - alumini k liye kya kia hai
+    - special for alumini
+    - ALUMINI
+    - Alumini
+    - show alumini
+    - glbitm Alumni Association
+    - glbitm alumini association kya hai
+    - what is glbitm Alumni Association
+    - aluini what
+    - alumini what was
+    - show me alumini
+    - what have you done for alumini
+    - anything for alumini ?
+    - alumini ???
+    - alumini kon hote hai
+    - alumini ka kya scene hai
+    - is there anything for alumini
+    - kya kaam kiye ho alumini k liye
+    - what are alumini
+    - is passout is alumini
+    - yearwise alumini
+    - year wise alumini
+    - how many alumini do you have
+    - how many alumini
+    - alumini in number
+    - alumini amount
+
+- intent: career
+  examples: |
+    - i want job
+    - jobs at glbitm
+    - i want to build career at glbitm
+    - carrer
+    - career portal
+    - job in your college
+    - job openning for staff
+    - career at glbitm
+    - glbitm job
+    - about jobs
+    - abbout career
+    - about career at glbitm
+    - about glbitm jobs
+    - job
+    - jobs
+    - JOOBS
+    - jobss glbitm
+    - jobs glbitm
+    - job for me
+    - teaching job at glbitm
+    - helping  staaf job
+    - job for tgt
+    - teacher vacany
+    - open job vacancy
+    - teacher vacancy
+    - i want to become teacher in glbitm
+    - want job at glbitm
+    - need job at glbitm
+    - need job at g l bajaj engineering college
+    - full time jobs
+    - part time jobs
+    - naukri at glbitm
+    - naukri milegi apke college me ?
+    - is there any vacancy for teacher ?
+    - is there any job vacancy
+    - show me job profiles
+    - show the latest jobs
+    - latest job
+    - new job opeining
+    - jobs hai ?
+    - meri naukri lag jayagi ?
+    - job portal
+    - carrer portall
+    - jobs portals
+    - teacher job portal
+    - show jobs
+    - show vacancy
+
+- intent: students_counselling
+  examples: |
+    - mental health issues
+    - mental health of student
+    - I have susidal thoughts
+    - i want to commit suside
+    - suside
+    - im not mentally fit
+    - mentally unfit
+    - mentally unhealthy
+    - mental problem
+    - im depressed
+    - I am depressed
+    - I'm Depressed
+    - I feel anxiety
+    - Im low
+    - Im unworthy
+    - what are your student counsel
+    - have you done anything for student mental health
+    - student pressure
+    - study pressure on student
+    - best  way for suside
+    - Im feeling low
+    - I cant do anything
+    - I wanna die
+    - lets die
+    - role of student counsel
+    - is there any student counsel
+    - student counselling role
+    - name of student counsel
+    - student counsellor
+    - student counselling
+    - is there any cell for student mental health
+    - student counseling cell
+    - tell me about counseling cell
+    - about student counseling
+    - student counseler
+    - student counceler
+    - name of student counceler
+    - name of student counsellor
+    - student counsellor
+    - contact details for ankila juneja
+    - ankita juneja
+    - student counsellor ankita juneja contact  info
+    - ankita juneja email id
+    - Im not feeling cheerful
+    - can I have contact of student counsellor
+    - where is student counsellor
+    - show me student counsellor
+    - tell me contact of student counsellor
+
+
+
+- intent: antiragging
+  examples: |
+    - ragging hoti h na ?
+    - ragging
+    - Ragging
+    - ragggingg
+    - I had be ragged
+    - antiragging cell
+    - role of antiragging cell
+    - what is antiragging cell
+    - what is raaging
+    - tell me about antiragging cell of glbitm
+    - antiragging head info
+    - who is antiragging head
+    - who is ragging head
+    - leader of ragging
+    - does ragging happen in glbitm
+    - glbitm ragging
+    - glbitm ragging cases
+    - rules of breaking ragging laws
+    - antiragging cell no
+    - is glbitm is ragging free
+    - antiragging comittee
+    - antiragging squad
+    - is glbitm is free form ragging
+    - does students are safe from ragging
+    - law against ragging
+    - fine for ragging
+    - ragging  k niyam
+    - ragging ka kya scene hai
+    - what actions taken against ragging
+    - antiragging information
+    - about antiragging
+    - tell me about antiragging cell
+    - tell me about antiragging squad
+    - punishment for ragging
+    - punishment for ragging in campus
+    - law against campus ragging
+    - ragging krne ke kya saja hai
+    - ragging krne ke kya saza hai
+    - what is the punishment for ragging
+    - how ragging takes place
+    - i want to do ragging
+    - dont ragging
+    - is ragging is a criminal offence
+    - ragging crime
+    - ragging in glbitm is crime
+    - ragginf commeteee
+    - ragginf commettee
+    - glbitm ragging squad
+    - glbitm main ragging k niyam
+
+- intent: medical
+  examples: |
+    - what are the medical facilities provided
+    - what is medcial facilities at glbitm
+    - medical facilities at glbitm
+    - medical assurance at glbitm
+    - medical health contact no
+    - doctor contact no
+    - medical in college
+    - medicine
+    - doctor
+    - need medical help
+    - doctor contact no
+    - doctor se milna hai
+    - need paracetamol
+    - need vicks
+    - need first aid
+    - where can i get first aid
+    - first aid in glbitm
+    - need emergency help in glbitm
+    - what is consultation duration
+    - tell me consultation duration
+    - consultation duration for checkup
+    - medial assistance at glbitm
+    - medical insurance for students
+    - I need kidney transplant
+    - I need medical help
+    - i need medical assurance
+    - does this college provide medical insurance
+    - medical insurance at glbitm
+    - medical cover at glbitm
+    - medical facilities for glbitm
+    - medical glbitm
+    - medical facilities for glbitm
+    - medical facilities in glbitm
+    - show me medical helpline of glbitm
+    - tell me medical helpline
+    - tell me doctor information of glbitm
+    - do you have any medical facilities
+    - Im suffering from fever
+    - Im suffering from headache
+    - fever
+    - wound
+    - bandaid
+    - loose motions
+    - medical help
+    - clinical help
+    - medical insurance information
+
+- intent: brochure
+  examples: |
+    - brochure
+    - brochureee
+    - Brocure
+    - Download brochure
+    - where can i get brochure
+    - i need brochure
+    - give me brochure
+    - broucher give me
+    - brochure ka kya scene hai
+    - brouchure milega ?
+    - can you show me brochure
+    - show me brochure of glbitm
+    - show me brochure of college
+    - show me brochure for admission
+    - show me detailed brochure of glbitm
+    - glbitm brochure
+    - about glbitm brochure
+    - what is in the brochure
+    - brochure content
+    - i want to read brochure
+    - Im unable to find brochure
+    - we need brochure
+    - do you have brochure
+    - brouchure
+    - brochure k liye kha jana h
+    - downloading brochure
+    - where i can find brochure
+    - do we reealy need brochure
+    - give me pdf of broucher
+    - give me broucher in pdf
+    - broucher pdf
+    - brouher of glbitm
+    - broucher ned
+    - need broucher of details
+    - latest brochure
+    - please download brochure latest
+    - download latest brochure
+    - give me a copy of brochure
+
+- intent: scholarship
+  examples: |
+    - scholarship need
+    - how can i get scholarship
+    - i need scholarship
+    - tell me the procedure to claim scholarship
+    - show me scholarship procedure
+    - up scholarship
+    - how to get scholarship
+    - documents required for scholarship
+    - tell me the list of documents required for scholarship
+    - give me scholarship details
+    - scholarship kya hai
+    - scholarship information
+    - how much scholarship can i get in one year
+    - one year scholarship ?
+    - one year scholarship
+    - total scholarship
+    - scholarshop
+    - shcolar shooooop
+    - scholarship last date
+    - scholarship details for final year
+    - scholarship details for 2nd year
+    - scholarship chaiye muje
+    - mai gareeb hu scholarship chaiye muje
+    - eligibility for scholarship
+    - form for scholarship
+    - link for scholarship
+    - renewal of scholarship form

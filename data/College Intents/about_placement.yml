@@ -1,0 +1,387 @@
+version: "2.0"
+nlu:
+- intent: top_company
+  examples: |
+    - top companies
+    - top company batao
+    - top company konsi hai
+    - show me the list of top companies
+    - list the highest paid companies
+    - show me the companies with highest package
+    - top companies that provied offers
+    - top companies of glbitm
+    - top companies for campus placement
+    - top companies for placement in glbitm
+    - highest package companies in glbitm
+    - highest paid companies
+    - high package
+    - large package
+    - 10 lpa companies
+    - 15 lpa companies
+    - 20 lpa companies
+    - 29 lpa companies
+    - more package company
+    - show me the list of highest paid companies
+    - companies that provide higher packages
+    - sabse zyda paise wali companies
+    - show some highest paid company in campus
+    - can I have look on highest paid companies
+    - could you please show me top companies
+    - top companies visit in glbitm
+    - top companies for naukri
+    - highest paid sallery companies in glbitm
+    - good companies
+    - acchi companies k naam batao
+    - show some top package companies
+    - do you have some top companies list
+    - 10 lakh wali companies
+    - 20 lakh wali companies
+    - highest popular company
+    - company that provide highest package
+    - highest package one can get in glbitm
+    - top quality companies
+    - top software companies
+    - top networking companies
+    - top UX/UI companies
+    - highest paid software development comapnies
+    - sabse zyda paise dene wali companies
+    - high package companies
+    - large package companies
+    - show some good package companies
+
+
+
+- intent: highest_package
+  examples: |
+    - highest package of glbitm
+    - highest package
+    - highest package i can get
+    - highest package one can get
+    - highest package in glbitm one can get
+    - highest package of year 2019
+    - highest package of year 2020
+    - top package provided
+    - highest package provided by glbitm
+    - highest package of college
+    - highest package of glbitm college
+    - acche package wali compny
+    - sabse zyda package konsi company deti hai
+    - glbitm me sabse zyda package konsi company deti h
+    - highest package in aktu best college
+    - kitna maximum package milta hai yaha
+    - maximum package of glbitm
+    - highest sallery package of glbitm
+    - maximum sallery package of glbitm
+    - maximum sallery of glbitm student
+    - highest package of student after placement
+    - zyda se zyda kitna sallery package milega muje
+    - zyda se zyda kitni sallery milegi muje glbitm se
+    - how much sallery I can get after placement in glbitm
+    - how much you provide as a maximum sallery package
+    - higghhhets package
+    - height package
+    - heigtets package
+    - maxxx package
+    - maxwell package
+
+- intent: mass_recruiter
+  examples: |
+    - mass recruiter
+    - mass recruiter konsi company hoti hai
+    - what is mass recruiter
+    - which companies are mass recruiter
+    - give me name of mass recruiter
+    - tell me names of mass recruiter
+    - can i have list of mass recruiter
+    - mass recruiter companies k naam batao
+    - muje naam chaiye mass recruiter companies k
+    - which companies are mass recruiter
+    - name the mass recruiter companies
+    - how many companies are mass recruiter
+    - mass recruiter kya hai
+    - mass recruiter k naam batao
+    - how many vacancy are there in mass recruiter
+    - how many students placed in mass recruiter companies
+    - all mass recruiter companies name
+    - when mass recruiter comes for placement
+    - what is the sallery package of mass recruiter companies
+    - mass recruiter ka kya mtlb hota hai
+    - muje mass recruiter se kya fayda
+    - I need to know about mass recruiter
+    - I wanna know about mass recruiter
+    - i want information about mass recruiter
+    - can you please tell me about mass recruiter
+    - about mass recruiter
+    - tell me something about mass recruiter
+    - give me some info regarding mass recruiter
+    - muje info dedo mass recruiter k liye
+    - name of all mass recruiter companies of glbitm
+
+- intent: placement_record_btech
+  examples: |
+    - show me the placement record btech
+    - btech placement report
+    - btech plcement records
+    - btech placement for year 2020
+    - btech placement for year 2019
+    - btech placement report in glbitm
+    - btech placement report for 2020
+    - btech placement report for 2018
+    - show me some btech placement record
+    - list the btech placement record
+    - show some btech placement
+    - i want btech placement record
+    - I want list of btech placement report right now
+    - Btech placement ke list dikhao
+    - btech placment ke report dikhao
+    - show me record of placement for btech
+    - btech k record dikhao
+    - btech  k placement k record dikhao
+    - btech placement btech placement
+    - btech placement report of last year
+    - btech placement report for previous year
+    - btech placement report for current year
+    - btech placement report for last to last year
+    - btech placement record for last year
+    - muje btech placement ka record chaiye
+    - muje btech placement ke report chaiye
+    - I need btech placement report
+    - I need btech placement record for this year
+    - BTECH PLACEMENT RECORD
+    - btech placement record chaiye muje
+    - btech placement record nikal k do jaldi
+    - i need btech placement asap
+    - i need btech placement for your college
+    - want btech placement for glbitm
+    - btech course k placment record chaiye muje
+    - btech course placement record need
+    - want btech placement recod
+    - want btech placement reprt
+    - need btech placement recod
+    - record of student in btech placement
+    - show me the record of students in btech placement
+    - btech placement k record dikha de yaar
+    - btech placement me kitno ka 10 lpa laga
+    - how many student in btech placement get highest packages
+    - no of students of btech placement apper
+    - appeared student in btech placement
+    - btech placement record of glbitm college
+    - btech placement record in your college
+    - college me btech placement ke report milegi ?
+    - how many get 10 lpa im btech placement
+
+- intent: placement_record_mba
+  examples: |
+    - show me the placement record mba
+    - mba placement report
+    - mba plcement records
+    - mba placement for year 2020
+    - mba placement for year 2019
+    - mba placement report in glbitm
+    - mba placement report for 2020
+    - mba placement report for 2018
+    - show me some mba placement record
+    - list the mba placement record
+    - show some mba placement
+    - i want mba placement record
+    - I want list of mba placement report right now
+    - mba placement ke list dikhao
+    - mba placment ke report dikhao
+    - show me record of placement for mba
+    - mba k record dikhao
+    - mba  k placement k record dikhao
+    - mba placement mba placement
+    - mba placement report of last year
+    - mba placement report for previous year
+    - mba placement report for current year
+    - mba placement report for last to last year
+    - mba placement record for last year
+    - muje mba placement ka record chaiye
+    - muje mba placement ke report chaiye
+    - I need mba placement report
+    - I need mba placement record for this year
+    - mba PLACEMENT RECORD
+    - mba placement record chaiye muje
+    - mba placement record nikal k do jaldi
+    - i need mba placement asap
+    - i need mba placement for your college
+    - want mba placement for glbitm
+    - mba course k placment record chaiye muje
+    - mba course placement record need
+    - want mba placement recod
+    - want mba placement reprt
+    - need mba placement recod
+    - record of student in mba placement
+    - show me the record of students in mba placement
+    - mba placement k record dikha de yaar
+    - mba placement me kitno ka 10 lpa laga
+    - how many student in mba placement get highest packages
+    - no of students of mba placement apper
+    - appeared student in mba placement
+    - mba placement record of glbitm college
+    - mba placement record in your college
+    - college me mba placement ke report milegi ?
+    - how many get 10 lpa im mba placement
+
+
+- intent: placement_record_mca
+  examples: |
+    - show me the placement record mca
+    - mca placement report
+    - mca plcement records
+    - mca placement for year 2020
+    - mca placement for year 2019
+    - mca placement report in glbitm
+    - mca placement report for 2020
+    - mca placement report for 2018
+    - show me some mca placement record
+    - list the mca placement record
+    - show some mca placement
+    - i want mca placement record
+    - I want list of mca placement report right now
+    - mca placement ke list dikhao
+    - mca placment ke report dikhao
+    - show me record of placement for mca
+    - mca k record dikhao
+    - mca  k placement k record dikhao
+    - mca placement mca placement
+    - mca placement report of last year
+    - mca placement report for previous year
+    - mca placement report for current year
+    - mca placement report for last to last year
+    - mca placement record for last year
+    - muje mca placement ka record chaiye
+    - muje mca placement ke report chaiye
+    - I need mca placement report
+    - I need mca placement record for this year
+    - mca PLACEMENT RECORD
+    - mca placement record chaiye muje
+    - mca placement record nikal k do jaldi
+    - i need mca placement asap
+    - i need mca placement for your college
+    - want mca placement for glbitm
+    - mca course k placment record chaiye muje
+    - mca course placement record need
+    - want mca placement recod
+    - want mca placement reprt
+    - need mca placement recod
+    - record of student in mca placement
+    - show me the record of students in mca placement
+    - mca placement k record dikha de yaar
+    - mca placement me kitno ka 10 lpa laga
+    - how many student in mca placement get highest packages
+    - no of students of mca placement apper
+    - appeared student in mca placement
+    - mca placement record of glbitm college
+    - mca placement record in your college
+    - college me mca placement ke report milegi ?
+    - how many get 10 lpa im mca placement
+
+- intent: why_glbitm_for_placement
+  examples: |
+    - why should I choose glbitm for placement
+    - glbitm he kyu placement  k liye
+    - glbitm for placement is no good
+    - does glbitm for placement is good
+    - does glbitm is good for placement
+    - glbitm for placement is no a good idea
+    - glbitm for placement is worth it or not ?
+    - does glbitm for placement is worth it
+    - why glbitm
+    - why glbitm
+    - why glbitm for placement
+    - glbitm for placement he kyu
+    - why should i choose glbitm for placment
+    - glbitm he kyu placement k liye
+    - glbitm accha hai placement k liye ??
+    - why glbitm is placement
+    - why glbitm is good for placement
+    - why glbitm for placement
+    - how can you sath you are best at placement
+    - why glbitm is better for placements
+    - why I choose glbitm for placemenet
+    - give me reason for placement in glbitm
+    - do you have any reasons so i can get placement in glbitm
+    - can you provide me the reason for glbitm placement
+    - do you help me why glbitm placement
+    - please clarify that why glbitm for placement
+    - what reason i consider for glbitm for placement
+    - why one should choose glbitm for placement
+    - why I will choose glbitm for my placemnt
+    - does glbitm is good for my future placement
+    - WHY WHY WHY WHY WHY WHY WHY WHY WHY glbitm
+    - what reason for glbitm placement
+    - give me reason for glbitm placement
+    - why dont you give me a reason for glbitm placement
+    - are you giving me a reason for glbitm placement
+    - why the hell Im going to choose glbitm
+    - is this enough for taking placement in glbitm
+    - give me valid reason for glbitm placement
+    - mai kyu lu glbitm me placement
+    - do you have any reason for glbitm placement
+    - WHYYY glbitm
+
+
+- intent: average_package
+  examples: |
+    - what is the average package
+    - what is the average package of glbitm
+    - average package of glbitm
+    - average package
+    - avg package
+    - average pack
+    - average package of this college
+    - average package of glbitm
+    - average package
+    - average package i can get
+    - average package one can get
+    - average package in glbitm one can get
+    - average package of year 2019
+    - average package of year 2020
+    - average package provided by glbitm
+    - average package of college
+    - average package of glbitm college
+    - average package wali compny
+    - average package konsi company deti hai
+    - glbitm me sabse average package konsi company deti h
+    - average package in aktu best college
+    - average sallery package of glbitm
+    - average  sallery package of glbitm
+    - average  sallery of glbitm student
+    - average package of student after placement
+    - how much sallery I can get after placement in glbitm
+    - how much you provide as a average  sallery package
+    - average kitne ka package lagega mera
+    - average kitna lag sakta h mera
+    - avg kitna hai
+    - how much will be the average of glbitm
+    - how much will be the sverage sallery package
+    - average sallery package
+    - average kitne ka lag jayaga mera
+    - mera kitne ka lag sakta hai average
+    - glbitm average package last year
+    -
+
+- intent: company_type
+  examples: |
+    - how many types of company do you have
+    - types of company arrived at glbitm
+    - kitne tarah ke company aati hai
+    - kitne prakar ke company
+    - types of company that I found in glbitm
+    - how types of company in glbitm
+    - how many variation of company do visit in glbitm
+    - can you please tell me how many types of company visit glbitm
+    - types of company that had been visited
+    - types of company
+    - types of companytypes of company
+    - company of types
+    - COMPANY K TYPES
+    - how company types visit
+    - how many types of types of company
+    - types of company do you prefer for placement
+    - types of company had visited
+    - category of company visit in your college
+    - types of company for btech
+    - types of company for placement in glbitm
+    - how can you classify types of companytelljoke

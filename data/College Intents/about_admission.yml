@@ -1,0 +1,315 @@
+version: "2.0"
+nlu:
+- intent: admission_info
+  examples: |
+    - b.tech admission
+    - admission
+    - adddmisin
+    - admisin
+    - how to get admission at glbitm
+    - can i get admission at glbitm
+    - what is admission procedure
+    - admsn
+    - admisssion
+    - what is the minimum percentage of getting admission in CSE
+    - what is the minimum percentage of getting admission in cse
+    - what is the minimum number of getting admission in CSE
+    - i want admission in glbitm
+    - admission is must in glbitm
+    - admission chaiye muje yaha
+    - admission k liye kya krna padega
+    - admission ka kya preocedure hai
+    - what is the precedure for admission
+    - how can I get admission
+    - admission in glbitm
+    - ADMISSION
+    - dakhila milega iss college me
+    - admission cutoff
+    - can  I get admission in glbitm after 12
+    - direct admission details
+    - councelling  admission details
+    - how can i apply for admission after upsee
+    - can you help me with admission
+    - could you please find me a link for admission
+    - ye admsiion ka kya chakkr hai
+    - admission fees
+    - admission for btech
+    - admission for mtech
+    - admission for mba
+    - admission for mca
+    - admission in CSE branch
+    - admission criteria in glbitm
+    - admission for my son
+    - admission for my daughter
+    - admission form link want
+    - need help in admission
+    - can you feed me with admission details
+    - need admission details for btech
+    - admission details want for btech cse
+    - how much you charge for admission
+    - admission milega kya
+    - I need admission in this college !!!
+    - only admission !
+    - admission please
+
+- intent: programs
+  examples: |
+    - what courses do you provide ?
+    - What are the programs offered?
+    - what are the programs offered?
+    - programs
+    - prgrams
+    - how many programs offered?
+    - programs offered?
+    - programs?
+    - how many programs
+    - programs kitne karaye jate hai iss college me
+    - how many programs do you have
+    - details about programs taught
+    - programs that has been offred
+    - programs kitne hai
+    - how many programs i can presue
+    - kon konse programs krwate ho aap log
+    - programs me enroll hone ka kya procedure hai
+    - programs programs
+    - programsprogramsprogramsprograms
+    - how many courses you provide
+    - how many courses do u have
+    - total no of of courses in glbitm
+    - all courses
+    - every course in glbitm
+    - GLBITM all programs
+    - GLBITM all courses
+    - kitne types k coursees krwate ho aap
+    - how many types of courses do you have
+    - course me enroll hona tha
+    - courses how many
+    - course course
+    - course ?
+    - details about every course
+    - all courses details wanted
+    - all courses detail
+    - how many courses you give
+    - kitne course hote h GLBITM me
+    - how many courses does GLBITM have
+    - GLBITM course
+
+
+- intent: branch_info
+  examples: |
+    - how many branches are there?
+    - number of branches?
+    - name of branches
+    - What are the branches
+    - branches
+    - brnchs
+    - brnch
+    - kitni branches hai
+    - how many branchh
+    - how do you classify branches
+    - how can i know  about branches
+    - how is branches
+    - do you have branches
+    - how many branches you have in btech
+    - stream kitni hai
+    - how many streams you have
+    - streams details
+    - branch info
+    - branches information needed
+    - branches kitni hai
+    - stream kitni hai
+    - branches ka kya seen hai
+    - i need information about branches
+    - I was unable to get branch
+    - tell me about branches in cse
+    - how many stream does btech gave
+    - hom many stream btech provide
+    - btech me kitni branches hai
+    - btechh me kitni streams hai
+    - btech how many branches
+    - do you fetch branch details
+    - could you please give me branch details
+    - can you help me with branch info
+    - can you help with stream information
+    - to kitni branches hai bhyii
+    - straam ke info milegi muje
+    - do you have cse stream in btech
+    - can you tell me about ec branch
+    - branches bata kitni h
+    - any new branch update
+    - any new stream update
+    - kitni sakkhaye hai aapki
+    - so many branchs ?
+    - bunchess
+    - no of branches you have ?
+    - how no of streams you have /
+    - branches ????????????????????
+
+
+- intent : eligibility_regular
+  examples: |
+     - eligibility
+     - criteria of admission
+     - what is the criteria of admission
+     - criteria
+     - critria
+     - eligibility criteria
+     - elgbity
+     - eligibility
+     - eligblity
+     - elblity
+     - elgblty
+     - elgigibilityy
+  
+
+- intent : eligibility_lateral
+  examples: |
+     - eligibility lateral
+     - criteria of admission lateral
+     - what is the criteria of lateral admission
+     - criteria lateral
+     - critria lateral
+     - eligibility criteria lateral
+     - elgbity lateral
+     - eligibility lateral
+     - eligblity lateral
+     - elblity lateral
+     - elgblty lateral
+     - elgigibilityy lateral
+     - eligibility lateral
+     - eligibility ltral
+     - eligibility lateral
+     - eligibility lteral
+
+
+
+- intent: fee_info
+  examples: |
+     - what is the fee structure
+     - what is the fee structure?
+     - fee structure
+     - fees
+     - fee
+     - fees
+     - what is the fees for B.tech(CSE)
+     - what is the fees for B.tech(ECE)
+     - what is the fees for B.tech(ME)
+     - what is the fees for B.tech(IT)
+     - what is the fees for B.tech(CE)
+     - fee structure for me
+     - fee structure me
+     - fee me
+     - fees me
+     - me fees
+     - college fees
+     - colege fee
+     - collg fees
+     - collg fee
+     - what is the fees of college
+     - wht is your college fees
+     - wht is colg fee
+     - fee structure for cse
+     - fee structure cse
+     - fee cse
+     - fees cse
+     - cse fees
+     - fee structure for it
+     - fee structure it
+     - fee it
+     - fees it
+     - it fees
+     - fee structure for ece
+     - fee structure ece
+     - fee ece
+     - fees ece
+     - ece fees
+     - fee structure for ce
+     - fee structure ce
+     - fee ce
+     - fees ce
+     - ce fees
+     - hostel_fee
+     - hostel_fees
+     - hostel fee
+     - hstl fee
+     - hostl fee
+     - hostel fee
+     - hstl fees
+     - hostl fees
+     - hostel fees
+     - fees ka kya seen hai
+     - what is the fees of MBA
+     - Mba fees batao
+     - MCA fees
+     - mtech dees
+     - dees batao
+     - mba fees
+     - mbaa fees
+     - what is the fees structure of anyy progam
+     - fees structire
+     - fees kitni jama hoti hai
+     - abki baar fees kitni jma hoga
+     - fees modes
+     - modes of fees payment
+
+
+- intent : hostel_info
+  examples: |
+    - hostel
+    - how was hostel
+    - how is hoetel
+    - hostal
+    - hosyyel
+    - hostell
+    - where is hostel
+    - glbitm has hostel
+    - how many rooms does hostel has
+    - hostel mess food
+    - hostel details
+    - hostel me kaisa khana milta hai
+    - hostel life at glbitm
+    - hostel andr se kaisa hai
+    - hotel kaisa hai
+    - how is hostel
+    - boys hostel how
+    - how is boys hostel
+    - hostel has play ground
+    - hostel ??
+    - hostel
+    - hostel kaisa hai
+    - hostel timing for girls
+    - how was boys hostel
+    - how was boy hastel
+    - how was girls hostel
+    - how the hostels are diffrent
+    - does glbitm have diffrent hostel for boys and girls
+    - girls and  boy hostel
+    - girls boys ka hostel alag alag h kya
+    - ladka ladki alag alag rhe hai hostel me ?
+    - hostel is safe ?
+    - is hostel safe for girls
+    - hostel punishments
+    - hostel mess food quality
+    - hostel is very good
+    - Chatravaas kaisa hai college parisar ka
+    - is there any medical facility in hostel
+    - hospital in hostel
+    - hostel medical assistance
+    - hostel ambulance
+    - hostel helpline
+    - hostel rules
+    - hostel abusing rules
+    - hostel rulebook
+    - do you offer any games in hostel
+    - do hostel have its own canteen
+    - hostel room size
+    - hostel details including area
+    - hostel ke dal kaisi hai
+    - hostel holidays
+   
+
+
+
+
+
+

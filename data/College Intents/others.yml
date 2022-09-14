@@ -1,0 +1,468 @@
+version: "2.0"
+
+nlu:
+- intent: virtual_tour
+  examples: |
+    - can I have glimpes of glbajaj
+    - can I have glimpes of your college
+    - can you show me glimpes of glbajaj
+    - can you show me glimpes of college
+    - virtual tour
+    - virtual tour of glbajaj college
+    - virtual tour of your college
+    - can I have virtual tour of your college
+    - can I have virtual tour of glbajaj college
+    - virtual tour dikha do
+    - virtual tour dekhna tha yaar
+    - virtual tour dikha sakte ho ?
+    - virtual tour hai ??
+    - can I have virtual wala tour
+    - muje virtual tour dekhna tha
+    - show me virtual tour
+    - show me virtual tour of your college
+    - show me actual virtual tour of your collegee
+    - can I have glimpse
+    - virtual tour glbajaj college
+    - virtual tour glbajaj college
+    - virtual tour glbaja engineering college
+    - virtual tour dikha de ek baar
+    - virtual tour please
+    - please show me virtual tour
+    - please show me virtual tour of glbajaj college
+    - virtual tour dikha na jaldi
+    - what do you have in virtual tour
+    - show me some virtual tour of your college
+    - hey gabby virtual tour show
+    - show virtual tour asap
+    - show virtual tour
+    - link for virtual tour
+    - AR virtual tour of college
+    - virtual tour of college campus
+    - virtual tour of ground
+    - virtual tour of library
+    - virtual tour of CLASSES
+    - I want virtual tour of glbajaj college
+    - I wanna see virtual tour
+    - can I have a look of glbajae
+    - look of virtual tour of glbajaj college
+    - virtual tour abglbajac
+    - glbajaj college ka virtual tour dikhao
+    - virtual tour dikhaa sakte ho tum
+
+- intent: academic_calender
+  examples: |
+    - academic calender
+    - varshik calender
+    - academic calender of last year
+    - academic calender of this year
+    - academic calender of precious year
+    - latest academic calender
+    - academic calender year 2020
+    - academic calender year 2021
+    - academic calender milega kya
+    - show me latest academic calender
+    - give me academic calender
+    - give me a copy of academic calender
+    - download a copy of academic calender
+    - calender milega kya
+    - college ka calander chaiye muje
+    - academic calender de do
+    - please provide me academic calender
+    - can I have a copy of academic calander
+    - could you provide me academic calender
+    - copy of academic calender
+    - academic calender dede na
+    - iss saal ka academic calender
+    - pichle saal ka academic calender
+    - calender
+    - academic calender
+    - calandaaar
+    - acadmaic celendar
+    - admic celebder
+    - academic calender
+    - ACADEMIC CALENDER
+    - keh diya na academic calender
+    - show me latest copy of academic calender
+    - link academic calender
+    - link for academic calender
+    - link to download academic calender
+    - latest academic calender download link
+    - academic calender ka lastest link dedo
+
+- intent: iqaf
+  examples: |
+    - IQAF
+    - iqaf
+    - iqqaf
+    - IQAAF
+    - IAqf
+    - IqAFF
+    - I Q A F
+    - what is iqaf
+    - Internal Quality Assurance Cell of glbajaj college
+    - do you have any quality assurance cell
+    - what is Internal Quality Assurance Cell
+    - wht is iqaf
+    - w8 is Internal Quality Assurance Cell
+    - w8 is iqaf
+    - what is the role of IQAF
+    - role of IQAF
+    - IQAF role in glbajaj college
+    - IQAF kya kaam krti hai
+    - IQAF ka kya kaam hai
+    - IQAF kyu hai
+    - hai kya ye IQAF
+    - IQAF se kuch hota hai
+    - IQAF kaise hai
+    - why IQAF
+    - whn IQAF
+    - where IQAF
+    - IQAFIQAF
+    - itefaq
+    - IQAF wht is
+    - IQAF of glbajaj college
+    - IQAF in glbajaj college
+    - IQAF of college
+    - IQAF working
+    - IQAF roll
+    - roll of IQAF glbajaj college
+- intent: nirf
+  examples: |
+    - nirf
+    - National Institutional Ranking Framework
+    - what is National Institutional Ranking Framework
+    - how is National Institutional Ranking Framework
+    - what is NIRF
+    - NIRF
+    - N I R F
+    - nirf
+    - nirrff
+    - nerf
+    - nref
+    - nirf
+    - nerf
+    - nrif
+    - nnirf
+    - nrft
+    - nerff
+    - what is nirf
+    - stand for nirf
+    - what is nirf in glbajaj college
+    - is glbajaj college is approved by nirf
+    - does glbajaj college affliated from nirf
+    - link dena nirf
+    - NIRF ranking of glbajaj college
+    - nirf rankk
+    - rank nirf glbajaj college
+    - nirf rank in glbajaj college
+    - nirf me glbajaj ke rank kya hai
+    - NIRF me glbajaj engineering college ke rank
+
+- intent: nptel
+  examples: |
+    - nptel
+    - naptol
+    - NPTEL
+    - N P T E L
+    - NNPTEL
+    - nptal
+    - noptl
+    - naptl
+    - nptel
+    - SWAYAM-NPTEL
+    - whn is SWAYAM-NPTEL
+    - what is SWAYAM-NPTEL
+    - about swayam-nptel
+    - tell me about swayam-nptel
+    - what is NPTEL
+    - NPTEL k bare me kuch batao
+    - NPTEL in glbajaj college
+    - any new things about NPTEL
+    - NPTEL kya hai
+    - NPTEL k courses kya hai
+    - nptel kya hai
+    - nptel k bare me kuch batao
+    - naptel kya hai
+    - what  is naptel
+    - nptel is what
+    - w8 is nptel
+    - nptel objective
+    - nptel certification
+    - nptel certificate
+    - nptel faculty
+    - nptel top rankers
+    - nptel ke rank kya hai
+    - nptel for glbajaj college
+    - nptel in glbajaj college
+    - nptel k courses
+    - free courses for nptel
+- intent: cetl
+  examples: |
+    - cetl
+    - CETL
+    - C E T L
+    - CCTEL
+    - ceetl
+    - ceetll
+    - cetl kya hai
+    - what is cetl
+    - tell me about cetl
+    - show me some data about cetl
+    - what is Centre of Excellence for Teaching and Learning
+    - Centre of Excellence for Teaching and Learning
+    - about Centre of Excellence for Teaching and Learning
+    - tell me about Centre of Excellence for Teaching and Learning
+    - tell me about cetl
+    - cetl kya hai
+    - what is cetl
+    - cetl kya hota hai
+    - where is cetl
+    - cetl kaha hai
+    - info about cetl
+    - about cetl in details
+    - cetl kya hai glbajaj college me
+    - any info regarding cetl
+    - teacher excellence ka kya scene hai
+    - cetl is for what
+    - aim for cetl
+    - what is the aim of cetl
+    - what is objective of cetl
+    - ctel kya hai
+    - cetl kya hai
+    - cetl me kya hota hai
+    - what is the purpose of cetl
+    - cetl ka purpose kya hai
+
+- intent: hr_portal
+  examples: |
+    - hr
+    - HR
+    - H R
+    - h r
+    - HAR
+    - hr portal tak le chalo
+    - hr kya hota hai
+    - glbaja hr portal
+    - glbaja hr
+    - HR of glbaja
+    - HUMAN RESOURCES
+    - human resource of glbajaj college
+    - human r
+    - hr kya hai
+    - take me to the hr portal
+    - hr portal link
+    - hr portal ka link dedo
+    - please give me hr portal link
+    - show me hr portal link
+    - show me the latest hr portal
+    - go to hr portal
+    - what is hr portal
+    - kya hota ye hr portal
+    - glbaja ka hr portal
+    - glbaja ka hr portal dikhana
+    - hr portal me kya hota hai
+    - hr portal hai glbaja me ?
+    - hr portal glbajaj college
+    - hr portal of glbaja engineerging college
+    - hr portal ka pravesh dwar dikhao
+    - hr portal me jane ka rasta
+    - hr portal  entry link
+    - hr portal le chalo
+    - chalo le chale tumhe hr portal me
+    - hr portal take to
+    - take me to hr portal right now
+    - show link for hr portal asap
+    - hr portal ka kya scene hai
+
+- intent: publication
+  examples: |
+    - publication
+    - publication kya hota hai
+    - publication is what
+    - what is publication ?
+    - what are publication in glbajaj college
+    - how many publication glbajaj college have
+    - authors for publication in glbajaj college
+    - publication for glbajaj college teachers
+    - publication named after teachers
+    - publication report
+    - publication report dena
+    - publication report hai kya
+    - what  is publication report
+    - show me publication report
+    - what are the publication report
+    - publication kya hai glbajaj college me
+    - list publication report
+    - download publication report
+    - glbajaj college publication report
+    - glbajaj college publication report download
+    - glbajaj college publication report download link
+    - glbajaj college publication report download link please
+    - top productive publication authors
+    - publication login link
+    - publication of jounrals
+    - publication for books
+    - publication for jounrals
+    - publication of books
+    - publication of chapters
+    - publication for patents
+    - publication for conference
+    - publication of glbajaj college
+    - publication record of all time
+    - deparment wise publication
+    - show me the list for department wise publication
+    - publication for research paper
+    - publication for pdf and conferences
+    - publication for publication
+    - publication dikhao yaar apne college ke
+    - get me to the publication login page
+    - publication k page pe le chalo muje
+    - kya hota hai publication me
+    - publication me kya hota hai
+- intent: sim
+  examples: |
+    - sim
+    - sem
+    - SIM PORTAL
+    - sim login
+    - SIM LOGIN
+    - SIM login link
+    - sim chaiye muje
+    - sim portal
+    - student attandance portal
+    - student portal
+    - attandance portal
+    - sim portal
+    - sim wala portal
+    - can you please give me sim portal link
+    - give me sim link
+    - sim login krne ka link dedo
+    - sim ka link milega kya
+    - give me sim portal link
+    - can you help me with sim login
+    - sim login krwa do
+    - attandance kaise dekhu
+    - how can I check my attandance
+    - sim pe attandance kaise dekhu
+    - sim ka link dedo please
+    - can you please provide me sim login link
+    - please help me with sim
+    - sim ka password
+    - I want sim login
+    - i wanna see attandance in sim
+    - i wanna see attandance in sim portal
+    - sim me kya kya hota hai
+    - sim ka link muje abhi chaiye
+    - SIM SIM SIM
+    - SEMMM
+    - SIMMM
+
+
+- intent: contactus
+  examples: |
+    - Contact
+    - i need contact details
+    - contact chaiye muje abhi
+    - i wanna contact you
+    - how can i contact you
+    - how can i contact you in social media
+    - I need contact details of glbajaj college
+    - insta contact details
+    - i need contact
+    - i want to contact you
+    - toll free contact no
+    - contact kya hai aapka
+    - mai aapko contact kaise kr skta hu
+    - contact mil skta hai aapka
+    - can i get contact details
+    - fax contact details
+    - telephone contact details
+    - mail contact details
+    - contact information for glbajaj college
+    - contact kya hai aapka
+    - contact krna chate hai hum aako
+    - aap apna contact info de skte hai
+    - can you please help  me with contact
+    - can you please guide me how can i contact you
+    - how can someone contact you
+    - arre bhyii contact kaise kare aapko
+    - muje apke college ke contact details chaiye
+    - how Im going to contact you
+    - help me with contacting you
+    - contact you
+    - contakt kaise kiya jae
+    - give me contact us link
+    - contact us link
+    - contact wala link dena
+    - contact contact
+    - how  can i connect with yoou
+    - how can i contact with you
+    - is there any way to contact you
+    - how many ways to contact you ?
+
+- intent: innovation
+  examples: |
+    - innovation
+    - innovation in you
+    - innovation in you philips
+    - innovation kya hai
+    - what is innovation
+    - when is innovation
+    - what are the innovations of glbajaj college
+    - innovation of glbajaj college
+    - how innovation  happen in glbajaj college
+    - innovation in glbaja engineering college
+    - innovation hai glbaja me
+    - what are the innovation in glbajaj college
+    - what are the innovation of glbajaj college
+    - is there any innovation in glbajaj college
+    - innovation in academics
+    - innovation kya hai yaha
+    - innovation what is in glbajaj college
+    - innovation hota h kuch
+    - kuch kaam ayagi innovation yaha
+    - show me innovation cycle
+    - show me innovation cycle of glbajaj college
+    - can I have look for innovation page
+    - may i know the innovation at glbajaj college
+    - glbajaj college me innovation ka kya scene hai
+    - innovation me kuch ho skta hai kya
+    - how innovation are implemented in glbajaj college
+    - how can someone knows about innovation
+
+
+- intent: father
+  examples: |
+    - who is you father
+    - tera baap kon h
+    - who is your daddy
+    - who is your grandfather
+    - father
+    - whos your father
+    - who are your makers
+    - who build you
+    - who builts you
+    - who is your owner
+    - who created you
+    - who is you mother
+    - kisne banaya h tumhe
+    - buddy aapke father kon hai
+    - who is your father buddy
+    - buddy aapke papa kon hai
+    - hey buddy aapke father kon hai
+    - hey who is your father
+    - how is your father
+    - name your creatores
+    - name the persons who builds you
+    - name the person who creates you
+    - any one create you
+    - aapke papa ka kya naam hhai
+    - tere baap ka kya naam hai
+    - aapke baap ka kya naam hai
+    - who are your owners
+    - is there your father exist
+    - aapke pita ji kon hai
+    - aapki mummy kon hai
+    - aapko kisne banaya hai
+    - who are your fathers
+    - are you born or built

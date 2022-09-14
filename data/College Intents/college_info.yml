@@ -1,0 +1,504 @@
+version: "2.0"
+nlu:
+- intent: about_college
+  examples: |
+    - about glbajaj
+    - about glbajaj tell
+    - tell me about glbajaj
+    - show me about glbajaj
+    - about glbajaj info
+    - about glbitm
+    - about glbajaj k bare me batao
+    - what is glbajajeec
+    - glbitm kya hai
+    - kya hai ye glbitm
+    - tell me about glbitm
+    - tell me about glbajaj college
+    - what is glbitm
+    - what is gl bajaj college
+    - about glbajaj
+    - tell me about gl bajaj college
+    - glbitm kya hai
+    - glbitm k bare me batao
+    - about glbitm mission
+    - about glbitm vision
+    - about glbitm core values
+    - tell me about glbitm mission
+    - tell me about glbitm vision
+    - tell me about glbitm core values
+    - can you tell me about glbitm
+    - could you please help to know about glbitm
+    - could you please help to know about glbajaj
+    - what is the glbitm
+    - when is glbitm
+    - who is glbitm
+    - where are glbitm
+    - kya hota hai ye glbitm
+    - glbajaj college kaisa hai
+    - about abeess college
+    - about glbajaj best college of delhi ncr
+    - about glbajaj best college of ghaziabad
+    - iss college ka sanchep me varnan do
+    - glbitm k bare me batao kuch
+    - iss college k bare me kuch batao muje
+    - I want to know about glbitm
+    - I wanna know details about glbitm
+    - give me details about glbitm
+    - give me detailed discription of glbitm
+    - what are the glbitm
+    - kya hota h glbitm me
+    - about glbitm quality policy
+    - about glbitm board of governance
+    - about glbitm k liye
+    - about glbitm in details
+    - about glbitm in hindi
+    - gl bajaj college
+    - gl bajaj college details
+    - Tell me about gl bajaj college
+    - tell me about president of glbitm
+    - about glbitm college
+    - say some words about glbitm
+    - give me some data about glbitm
+    - provide me some info about glbitm
+- intent: where_is_glbajaj
+  examples: |
+    - where is glbajaj
+    - where is glbitm
+    - where is glbitm situated
+    - where is glbitm located
+    - where is glbitm currently
+    - address of glbitm
+    - provide me location details of glbitm
+    - kaha hai glbitm location
+    - konsi jgh hai ye glbitm
+    - place where glbitm located
+    - where is glbitm
+    - where is gl bajaj college
+    - where is glbajaj college
+    - where is glbajaj founded
+    - where is glbitm discoverd
+    - where is glbitm invented
+    - full adress of glbitm
+    - place where glbitm is
+    - detail of glbitm location
+    - where is glbitm is
+    - take me to the glbitm location
+    - show me glbitm on map
+    - hai kaha ye college
+    - muje location chaiye glbitm ke
+
+- intent: glbajaj_sports
+  examples: |
+    - Sports Facilities of glbitm
+    - sports facility
+    - sports in glbitm
+    - sports ka kya scene hai glbajaj me
+    - sports in glbitm
+    - sports me kya kya hota hai glbitm me
+    - sports membership
+    - how many sports happen in glbitm
+    - how many sports are there in glbitm
+    - sports me kya khilate hai
+    - sports day
+    - when is sports day
+    - swimming pool kaisa hai
+    - how is swimming pool
+    - how is swimming pool is tha
+    - what is swimming pool is tha
+    - glbitm has swimming pool ?
+    - when is sports day of glbitm
+    - ye tum sports me kya dete ho
+    - sports me kya kr skte hai
+    - sports facility in glbitm
+    - sports activities in glbitm
+    - sports activities
+    - sports competation in glbitm
+    - sports competation
+    - cricket sports in glbitm
+    - cricket sports what happen
+    - what happen in sports
+    - scope of sports in glbitm
+    - no of sports
+    - number of sports
+    - number of sports played in glbitm
+    - sports facility at glbitm
+    - sports events in glbitm
+    - sports events in your college
+    - do you host any sports event
+    - ranking of glbitm in sports
+    - glbitm ranking in sports
+    - how much importance you gave to sports
+    - scope of sports in glbitm
+    - scope of sports in your college
+
+- intent: korean_concert
+  examples: |
+    - korean concert
+    - korean concert is
+    - what is korean concert
+    - when korean concert happen in glbitm
+    - does glbitm hosted any korean concert
+    - what is korean concert talk
+    - korean concertxglbitm
+    - what is Koreanxglbitm
+    - korean concertxglbitm kya hai
+    - muje korean concertxglbitm k bare me batao
+    - kon kon aya tha korean concertxglbitm  me
+    - speakers of korean concert
+    - who are the authors at korean concert
+    - what is korean concert
+    - when is korean concert
+    - where is korean concert
+    - what is theme of korean concert
+    - details about korean concert
+    - details about korean concert speakers
+    - I want to know about korean concert
+    - can i know about korean concert
+    - korean_concertglbitm kya hai
+    - korean concert kab hua tha
+    - korean concert me kon kon aya tha
+    - fees of korean concert
+    - kya mai aa sakta hu korean concert me
+    - how many enents happen in korean concert
+    - can you help me with korean concert details
+    - where korean concert happen
+    - where korean concert occur
+    - location of korean concert
+    - when korean concert occur
+    - organising team of korean concert
+    - prodution manager at korean concert
+    - hai kya ye korean concert
+    - glbitm me kya korean concert hota hai
+    - glbitm me korean concert ka kya kaam
+    - theme kya thi glbitm me korean concert ke
+- intent: library
+  examples: |
+    - library
+    - what is library
+    - kya hoti h library
+    - take me to the library
+    - where is library
+    - how big is library
+    - how many books are in library
+    - where is library situated
+    - library at glbitm
+    - central library
+    - central library of glbitm
+    - library services
+    - digital library
+    - take me to digital library
+    - does your library has ebooks
+    - precious year question paper form library
+    - new arrivals of library
+    - new arrivals in library
+    - library portal
+    - take me to the library portal
+    - give me the link of library prtal
+    - Research Publication of Faculty Members at library
+    - nptel videos form library
+    - library stock books
+    - digital library timings
+    - where is central library
+    - library resources
+    - library dues
+    - library book issue timings
+    - contact details of librarian
+    - mere paas book hai waps kru ?
+    - where is library books
+    - how many books library contains
+    - do you have gate books
+    - ebooks library
+    - E books at library
+    - library timings
+    - library books late fine
+    - research paper publication from library
+
+- intent: canteen
+  examples: |
+    - canteen
+    - where is canteen
+    - what is canteen
+    - how many canteen you have
+    - how many canteen are there in your college
+    - sabse sasti canteen konsi hai
+    - food canteen
+    - where i can found food
+    - good place for lunch
+    - canteen kaha hai
+    - name canteen
+    - name all the canteens
+    - canteen me kya kya milta hai
+    - food quality of canteen
+    - where are all these canteen
+    - tmens canteen
+    - kalpatru canteen
+    - how many food items thay have
+    - so can i get enough food at canteen
+    - canteen k naam batao
+    - saari canteen k naam batao
+    - sab k sab canteen k naam batao
+    - name all canteen in glbitm
+    - name all canteen at glbitm
+    - show some food menus at canteen
+    - canteen timings
+    - canteen timings of glbitm
+    - cafe in glbitm
+    - nescafe in canteen
+    - juice corner of glbitm
+    - where is juice corner
+    - where is nescafe of glbitm
+    - where is maggi point in glbitm
+    - canteen in hostel
+    - canteen in boys hostel
+    - canteen in girls hostel
+    - how many canteen in total does your college have
+    - so there are enough canteen
+    - list all canteens
+    - show me all canteen
+
+- intent: occasion
+  examples: |
+    - occasion
+    - occasion at glbitm
+    - occasion in  glbitm
+    - latest anouncement at glbitm
+    - print media occasion
+    - occasion upcomming
+    - what are the upcoming occasion
+    - occasion kya kya hote hai glbitm me
+    - latest news of glbitm
+    - where can I found occasion list
+    - show me college happening
+    - latest anouncement of glbitm
+    - latest occasion in glbitm
+    - latest occasion at glbitm
+    - aane wale occasion
+    - take me to the occasion page
+    - occasion ka kya scene hai
+    - muje occasion chaiye
+    - latest news kya hai glbitm me
+    - show me the latest news in glbitm
+    - video gallery for glbitm
+    - upcoming seminars
+    - upcoming webinars
+    - occasion konse hone wale hai
+    - print media kon konsi hai glbitm me
+    - muje print media ka pata chaiye
+    - what are the occasion in college
+    - koi muje occasion k bare me batyaga
+    - occasion ka kya scene hai
+    - occasion latest
+    - latest occasion announcement
+- intent: clubs
+  examples: |
+    - clubs
+    - CLUBS
+    - society
+    - society of glbitm
+    - society in glbitm
+    - how many society are in glbitm
+    - clubs how
+    - how many clubs are in glbitm
+    - do you haves clubs and society
+    - how many clubs is
+    - can you give me names of clubs in glbitm
+    - list all clubs in glbitm
+    - sare clubs k naam batao
+    - muje sare clubs k naam chaiye
+    - kitne clubs hai aake collge me
+    - clubs hai apke yaha
+    - does your college have clubs
+    - do you celebrate anything
+    - do you have any photography club
+    - do you have any literature club
+    - do you have any technical club
+    - name all the clubs
+    - do check all clubs name
+    - clubs me entry procedure
+    - how clubs organise events
+    - do you guys have any clubs
+    - clubs are important
+    - do your clubs host any event
+    - name all the society
+    - sari ke sari society k naam chaiye muje
+    - tell me about [Creative U](club) Club
+    - tell me about [Cultural](club) Club
+    - tell me about [Environ](club) Club
+    - tell me about [Minerva-The Literary](club) Club
+    - tell me about [NSS](club) Club
+    - tell me about [Pelicula-The Movie](club) Club
+    - tell me about [Picturesque](club) Club
+    - tell me about [SAMVAAD Theatre-Dramatics](club) Club
+    - tell me about [Spicmacay](club) Club
+    - tell me about [Spirituality and Yoga](club) Club
+    - tell me about [Student Publication Club-AAGAZ](club)
+    - [Creative U](club) Club
+    - [Cultural](club) Club
+    - [Environ](club) Club
+    - [Minerva-The Literary](club) Club
+    - [NSS](club) Club
+    - [Pelicula-The Movie](club) Club
+    - [Picturesque](club) Club
+    - [SAMVAAD Theatre-Dramatics](club) Club
+    - [Spicmacay](club) Club
+    - [Spirituality and Yoga](club) Club
+    - [Student Publication Club-AAGAZ](club)
+
+
+- intent: infrastr
+  examples: |
+    - classroom kaha hai
+    - kitne classroom hai
+    - classrom kaha kha hai
+    - where are classrooms
+    - how many classroom do you have
+    - how many classroom does aryabhatta block have
+    - how many classroom does bhabha block have
+    - how many classroom does kalpna chawal block have
+    - how many classroom does ramana block have
+    - how many classroom in glbitm
+    - where are classroom in glbitm
+    - show me all classroom in glbitm
+    - list all details of classroom in glbitm
+    - show me classroom of glbitm
+    - room no of classroom
+    - how many room no are of classroom
+    - room number of classroom
+    - classroom me kya kya hai
+    - classroom kaha kaha hai
+    - classroom konse floor pr hai
+    - on which floor classroom is
+    - how many TUTORIALS ROOMS you have
+    - tutorial rooms
+    - tutorial rooms in glbitm
+    - tutorial rooms kaha hai college me
+    - tutorial rooms hai glbitm me ?
+    - where are tutorial rooms in glbitm
+    - how many tutorial rooms are present in glbitm
+    - tutorial rooms kidhar hai
+    - kaha kha hai tutorial rooms
+    - tutorial rooms in aryabhatta block
+    - tutorial rooms in raman block
+    - tutorial rooms in bhabha block
+    - i wanna know about tutorial rooms
+    - tutorial rooms me kya hota hai
+    - konse floor pe hai tutorial rooms
+    - seminar halls kaha hai
+    - seminar halls kitne hai
+    - where is seminar halls
+    - how many seminar halls you have
+    - seminar halls in aryyabhatta block
+    - show me locations of seminar halls
+    - seminar halls kidhar hai
+    - where is seminar hall in glbitm
+    - where are seminar halls of glbitm
+    - seminar halls me jane k liye rasta
+    - guide me to the way of seminar halls
+    - seminar halls in raman block
+    - seminar halls in KC block
+    - seminar halls in bhabha block
+    - seminar halls 1 kidhar hai
+    - where is seminar halls 2
+    - where is seminar halls 3
+    - where is seminar halls 4
+    - auditorium kaha hai
+    - auditorium kitne hai
+    - where is auditorium
+    - how many auditorium you have
+    - auditorium in glbitm
+    - show me locations of auditorium
+    - auditorium kidhar hai
+    - where is auditorium in glbitm
+    - where are auditorium of glbitm
+    - auditorium me jane k liye rasta
+    - guide me to the way of auditorium
+    - auditorium in raman block
+    - how big is auditorium
+    - how many seats are in auditorium
+    - where is CETL in kalpna chawla block
+    - where are departmental libraries
+
+- intent: labs
+  examples: |
+    - labs
+    - Curriculum Labs
+    - where are Curriculum Labs
+    - where is Curriculum Labs
+    - how many Curriculum Labs you have
+    - how many Centres of Excellence you have
+    - give me some details about Centres of Excellence
+    - where are Centres of Excellence in glbitm
+    - Centres of Excellence in glbitm is where
+    - departmenat of Centres of Excellence labs
+    - labs kitni hai
+    - labs kidhar hai
+    - how many labs you have
+    - do you have any labs
+    - where are kabs
+    - which types of labs you have
+    - labs hai
+    - show me all labs
+    - list all labs of glbitm
+    - list every lab
+    - project lab details
+    - where is project lab
+    - Language Lab
+    - Physics Lab
+    - Chemistry Lab
+    - PPS Lab
+    - CAEG Lab
+    - cad lab
+    - electronic lab
+    - communication lab
+    - where are all labs
+    - show me details of each lab
+    - technical labs
+    - computer labs
+    - where are labs in glbitm
+    - give details about labs
+    - labs me kya kya hota hai
+    - labs ke timing kya hoti hai
+    - labs me kya kaam hota hai
+    - I wanna know about labs in details
+    - where is lab
+    - where is labs of all time
+    - how many labs are there in kc block
+    - Details of Curriculum Labs & Centres of Excellence
+    - give me Details of Curriculum Labs & Centres of Excellence
+- intent: photos
+  examples: |
+    - photos of Bhabha Block
+    - photos of Ramanujan Block
+    - photos of Aryabhatta Block
+    - photos of Kalpana Chawla Block
+    - photos of Raman Block
+    - photos of Seminar Halls
+    - show me photos of college blocks
+    - show me pics of college premices
+    - show me photograph of bhabha block
+    - show me photograph of aryabhata block
+    - show me photograph of ramanujan block
+    - show me photograph of raman block
+    - show me photograph of kc block
+    - show me photograph of kalpna chawala block
+    - show some pic of seminar hall
+    - can I have some photos of college
+    - can I have some pics of block
+    - show me photos of classroom
+    - photos of seminar halls
+    - photos of tutorial rooms
+    - complete photos of kc aryabhata block
+    - fotu dikha de yaar college ke
+    - pics of college premises
+    - photos of classes
+    - show me some photos of class
+    - show me some photos of seminar halls
+    - photos dikha do
+    - muje photos chaiye  yar
+    - photo hai aapke paas
+    - Geotagged Photo of classes
+    - Geotagged Photo kya hai
+    - Geotagged Photo pics chaiye muje
+    - i need Geotagged Photo pics
+    - Geotagged Photo milengi kya
+

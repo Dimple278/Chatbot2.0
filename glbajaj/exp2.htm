@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+    <link rel="stylesheet" href="exp2.css">
+</head>
+
+<body>
+    <script>!(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+          (e.async = !0),
+          (e.onload = () => {
+            window.WebChat.default(
+              {
+                initPayload:'/greet',
+                customData: { language: "en" },
+                socketUrl: "http://localhost:5005",
+                // add other props here
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+      })();
+      </script>
+    <div class="main">
+        <div class="header">
+            <img src="logo.jpg" alt="GLBajaj"></div>
+        <h1 id="head">Ganeshi Lal Bajaj Institute of Technology and Management</h1>
+    </div>
+    <div id="nav">
+        <button class="btn" onclick="openTab('HOME')">HOME</button>
+        <button class="btn" onclick="openTab('ABOUT')">ABOUT</button>
+        <button class="btn" onclick="openTab('DEPARTMENT')">DEPARTMENT</button>
+        <button class="btn" onclick="openTab('TRAINING & MANAGEMENT')">TRAINING & MANAGEMENT</button>
+        <button class="btn" onclick="openTab('ACADEMICS')">ACADEMICS</button>
+        <button class="btn" onclick="openTab('EVENTS')">EVENTS </button>
+                <button class="btn" onclick="openTab('RESEARCH & DEVELOPMENT')">RESEARCH & DEVELOPMENT</button>
+    </div>
+    <div class="body" id="HOME">
+
+        <p class="heading">
+            G.L.BAJAJ INSTITUTE OF TECHNOLOGY AND MANAGEMENT
+        </p>
+        <img src="banner.jpg" alt="banner" id="banner">
+    </div>
+    <div class="body" id="ABOUT">
+        <div>
+            <h3>The INSTITUTE</h3>
+            <p>
+                GL Bajaj Institute of Technology & Management is the 6th Institute established under the prestigious
+                banner
+                of Rajeev Memorial Academic Welfare Society (Registered Under Societies Registration Act 1860). The
+                institute is approved by All India Council for Technical Education (AICTE), Ministry of HRD, Govt. of
+                India
+                and Affiliated to Dr. A.P.J. Abdul Kalam Technical University (Formerly UPTU Lucknow).
+            </p>
+            <p>
+                GL Bajaj Institute of Technology and Management is one of the quality driven Educational Institute in
+                the
+                Greater Noida/Delhi-NCR Region. GL Bajaj stands out as one of the best engineering and management
+                college in
+                UP. It also stands out in its approach to assist and equip the students for their overall development,
+                giving them a strong foundation for a successful future. The institute offers B.Tech, MBA and MCA
+                programs.
+
+                This self financed institute is governed by Rajeev Memorial Academic Welfare Society (Registered Under
+                Societies Registration Act 1860). It is approved by All India Council for Technical Education (AICTE),
+                Ministry of Human Resource Development, Government of India and affiliated to Dr. A.P.J. Abdul Kalam
+                Technical University, Lucknow.
+
+                The institute has been maintaining its positions amongst the top engineering and management colleges in
+                AKTU
+                university results. It has been maintaining the highest pass percentage amongst the engineering and
+                Management colleges in Noida and Greater Noida region under Dr. APJ Kalam University, Lucknow for the
+                last
+                eight years and is listed among the top engineering and management colleges in Greater Noida, Delhi NCR.
+                In
+                fact this engineering college has been listed among the top engineering of India by NIRF, issued by
+                MHRD,
+                Government of India. The Institute has also received awards for being one of the top engineering and
+                management institutes of North India and UP by many organizations.
+            </p>
+            <div class="image">
+                <img src="gl1.jpg" alt="institute" class="imgab">
+                <img src="gl2.jpg" alt="institute" class="imgab">
+                <img src="gl3.jpg" alt="institute" class="imgab">
+            </div>
+        </div>
+    </div>
+    <div class="body" id="DEPARTMENT">
+
+        <p>
+        <h3>Departments</h3>
+        </p>
+        <div>
+            <p>
+                Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering,
+                Information
+                Technology, Applied Science & Humanities, Electrical & Electronics Engineering, Master of Computer
+                Application (MCA) and Master of Business Administration (MBA) have an independent infrastructure. Every
+                department is driven by vibrant HOD and has a strong team of Professors, Associate Professors and
+                Assistant
+                Professors who device their own innovative ideas to enrich the educational experience of the students.
+            </p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="cse.jpg" alt="cse img">
+                    <h3>Computer Science Engineering </h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="it.jpg" alt="cse img">
+                    <h3>Information Technology </h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="ece.jpg" alt="cse img">
+                    <h4>Electrical and Communication Engineering </h4>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="ce.jpg" alt="cse img">
+                    <h3>Civil Engineering </h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="eee.jpg" alt="cse img">
+                    <h4>Electronics and Electrical Engineering </h4>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="me.jpg" alt="cse img">
+                    <h3>Mechanical Engineering </h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="ash.jpg" alt="cse img">
+                    <h3>Applied Science and Humanities</h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="mca.jpg" alt="cse img">
+                    <h3>Master of Computer Application </h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="mba.jpg" alt="cse img">
+                    <h3>Master of Business Administration</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="body" id="TRAINING & MANAGEMENT">
+
+
+        <h3>Overview</h3>
+        <p>Training and Placement department is dedicated towards proper placement of students .It advices students on
+            career options and provides the latest information on training & employment opportunities.
+
+            Focus areas are providing guidance, counseling and bringing students and potential employers together to
+            acheive the best possible placement depending on the market conditions .The department looks after the
+            interest of the students and the employers by providing them the necessary platform.
+
+            For any enquiry mail us @
+            manju.khatri@glbitm.org
+            manjukhatri@hotmail.com</p>
+
+        <h3>Campus Hiring Interest Form</h3>
+
+        <p>Objectives of this department are as follows:
+        <ul>
+            <li>To organize campus recruitment for final year students in reputed companies.</li>
+            <li>To facilitate companies for recruiting candidates as per their requirements.</li>
+            <li>Creating awareness amongst the students regarding various career options.</li>
+            <li>To enhance students employability by providing training in Aptitude & soft skills.</li>
+            <li>Helping students for summer training/internship programme.</li>
+        </ul>
+        </p>
+        <p>
+            Bridging gap between Industry and Academia through:
+            Seminars, Guest Lectures, Conferences, Corporate Meets & Industrial Visits etc.
+            Coordinating with various departments for imparting value added industry skills.
+        </p>
+    </div>
+    <div class="body" id="ACADEMICS">
+
+        <h3>Examination (Rules & Regulations)</h3>
+
+        <p>1. The performance of a student in a semester shall be evaluated through continuous class assessment and end
+            semester examination. The continuous assessment shall be based on class tests, assignments/tutorials,
+            quizzes/viva-voce and attendance. The marks for continuous assessment (Sessional marks) shall be awarded at
+            the
+            end of the semester. The end semester examination shall be comprised of written papers, practicals and
+            viva-voce, inspection of certified course work in classes and laboratories, project work, design reports or
+            by
+            means of any combination of these methods.<br>
+            2. The distribution of marks for sessional, end semester theory papers, practicals and other examinations,
+            seminar, project, industrial training and general proficiency shall be as prescribed.<br>
+            3. The marks obtained in a subject shall consist of marks allotted in end semester theory paper, practical
+            examination and sessional work.<br>
+            4. The minimum pass marks in each theory subject (including sessional marks) shall be 40% with a minimum of
+            30%
+            marks in each theory paper in the end semester examination. If there is no provision of sessional marks in
+            any
+            subject, the minimum pass marks in that subject shall be 30% in the end semester examination.<br>
+            5. The minimum pass marks in a project/practical subject (including sessional marks if any) shall be
+            50%.<br>
+            6. A candidate, in order to pass, must secure 50% marks in the aggregate in a particular academic year
+            inclusive
+            of both semesters of the academic year subjected to conditions as clause 9.2(a).<br>
+            7. The minimum pass marks in Seminar, Industrial Training and Educational Tour, Viva-Voce etc. shall be
+            50%.<br>
+        </p>
+    </div>
+    <div class="body" id="EVENTS">
+        <h3>EVENTS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto asperiores voluptatem minima eos
+            sapiente explicabo quae vel quis, quisquam autem non deserunt exercitationem reiciendis amet, ipsum, eaque
+            dignissimos odit nostrum quidem accusamus consequatur incidunt. Nisi nostrum quas, excepturi autem porro
+            quos neque non ullam earum aperiam alias ipsum doloremque quis fuga explicabo labore necessitatibus?
+            Perspiciatis deserunt quaerat aliquam atque tempora? Illum culpa dignissimos inventore quas voluptates,
+            maxime laudantium sequi voluptatum eaque fugiat ratione temporibus quos cum delectus quam ipsum commodi quo
+            officiis odio modi. Reprehenderit quae facilis maxime consequatur fugiat pariatur id saepe ipsam unde vitae.
+            Eum eos ipsa aliquam illum accusantium, unde praesentium odit amet dolorem nihil assumenda, magnam nulla
+            obcaecati aliquid doloribus veniam voluptatibus, debitis eius commodi perspiciatis? Sint cumque dicta minus
+            totam molestiae? Pariatur, ipsa? Qui dolor necessitatibus enim eaque consectetur alias beatae, inventore vel
+            natus, quia nam laborum? Ex provident illo soluta blanditiis ut modi ipsum? Laudantium sed, consequuntur
+            odio veniam vitae cumque enim expedita sequi laboriosam porro dolore dolorum et commodi omnis quisquam illum
+            repellat id sint, itaque, animi incidunt tenetur dignissimos accusantium? Tempora dolorem non incidunt illo
+            in voluptates dolor, quis, maiores nulla nisi, qui fugiat porro illum. Modi tempora officiis eveniet
+            necessitatibus.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolorum consequatur delectus iusto? Amet
+            cupiditate laboriosam magnam architecto laudantium temporibus sequi, odio, accusantium, facilis molestiae
+            molestias illum! Non dolorem neque cum culpa fugit repellat eos a reprehenderit animi distinctio ex nihil
+            excepturi, aspernatur autem aliquid nobis quibusdam magni consectetur inventore aperiam in quas amet
+            adipisci. Illo nemo dignissimos autem iusto?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis pariatur iste beatae est
+            explicabo facere molestias minima temporibus inventore hic dolorum vel, necessitatibus autem architecto
+            natus fugit ratione eos.
+        </p>
+    </div>
+    <div class="body" id="RESEARCH & DEVELOPMENT">
+        <h3>Student Development Programme</h3>
+        <p>
+            As a part of commitment towards quality technical education and excellence G.L. Bajaj has embarked on
+            promoting various student development programmes to improve their job prospects or higher education courses
+            overseas.
+        </p>
+        <h4>Felicitation of Bright Students and upliftment of week student</h4>
+        <p>
+
+            A true success of any institute is counted through the values and the thirst for knowledge it has been able
+            to imbue in its students”. Felicitation ceremony was conducted on 28th september 2019 to honor the ones who
+            bought laurels to the institute by achieving great in different genres of learning .The ceremony aimed to
+            reward students who secured maximum aggregate during the session 2018-19 . Students were awarded with merit
+            certificates and a cash prize as a token of reward. Along with, the IT department also rewarded those
+            students who has been active for the session who performed splendidly and maintain a form of punctuality by
+            attending the college enthusiastically. Under this felicitation ceremony , there were many more activities
+            to cherish the moment and lighten up the atmosphere. Mentors were there to guide the students for choosing
+            the path that leads to success
+        </p>
+        <h4>Workshop for Student’s Career Counselling for Prospective Placements</h4>
+        <p>
+            With a motive to enhance the employability skills of the students, AKTU, Lucknow organized career
+            counselling session in G.L. Bajaj Institute of Technology and Management, Greater Noida. Shri Dinesh Pathak
+            (Senior journalist and renowned career counselor) motivated the students to enhance their confidence level
+            and impart flexibility by acquiring additional knowledge through online courses. He emphasized the need of
+            self-motivation among students and suggested methods to boost their self-confidence. The session was
+            attended by more than 350 students of Mechanical and Civil Engineering students. The energy among the
+            students was evident through their queries during and after the session. This program will have deep impact
+            on the thinking process of students about their career prospects. The institute would like to organize more
+            of such programs in future. Dr. Rajeev Agarwal, Director GLBITM reiterated the need of self-motivation among
+            the students and offered support from institute for such programs in future.</p>
+    </div>
+    </div>
+    <script>
+        function openTab(tabName) {
+            var i;
+            var x = document.getElementsByClassName("body");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
+</body>
+
+
+</html>

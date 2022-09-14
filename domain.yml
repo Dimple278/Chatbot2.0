@@ -1,0 +1,305 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- about_college:
+    use_entities: true
+- abuse_bot:
+    use_entities: true
+- academic_calender:
+    use_entities: true
+- admission_info:
+    use_entities: true
+- affirm:
+    use_entities: true
+- alumini:
+    use_entities: true
+- antiragging:
+    use_entities: true
+- ask_abuse_reply:
+    use_entities: true
+- ask_bot_name:
+    use_entities: true
+- average_package:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- branch_info:
+    use_entities: true
+- brochure:
+    use_entities: true
+- canteen:
+    use_entities: true
+- career:
+    use_entities: true
+- cetl:
+    use_entities: true
+- clubs:
+    use_entities: true
+- company_type:
+    use_entities: true
+- contactus:
+    use_entities: true
+- deny:
+    use_entities: true
+- eligibility_lateral:
+    use_entities: true
+- eligibility_regular:
+    use_entities: true
+- father:
+    use_entities: true
+- fee_info:
+    use_entities: true
+- forms:
+    use_entities: true
+- glbajaj_sports:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- greet:
+    use_entities: true
+- highest_package:
+    use_entities: true
+- hostel_info:
+    use_entities: true
+- hr_portal:
+    use_entities: true
+- infrastr:
+    use_entities: true
+- innovation:
+    use_entities: true
+- iqaf:
+    use_entities: true
+- korean_concert:
+    use_entities: true
+- labs:
+    use_entities: true
+- library:
+    use_entities: true
+- mass_recruiter:
+    use_entities: true
+- medical:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- nirf:
+    use_entities: true
+- nptel:
+    use_entities: true
+- occasion:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- photos:
+    use_entities: true
+- placement_record_btech:
+    use_entities: true
+- placement_record_mba:
+    use_entities: true
+- placement_record_mca:
+    use_entities: true
+- programs:
+    use_entities: true
+- publication:
+    use_entities: true
+- react_positive:
+    use_entities: true
+- regret_abuse_reply:
+    use_entities: true
+- scholarship:
+    use_entities: true
+- sim:
+    use_entities: true
+- students_counselling:
+    use_entities: true
+- students_counsellingw:
+    use_entities: true
+- telljoke:
+    use_entities: true
+- thank:
+    use_entities: true
+- top_company:
+    use_entities: true
+- virtual_tour:
+    use_entities: true
+- where_is_glbajaj:
+    use_entities: true
+- why_glbitm_for_placement:
+    use_entities: true
+entities:
+- club
+- name
+- language
+- company
+- product
+- college
+- abuse
+slots:
+  club:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Hey! How can I help?
+  - text: Hey! How may I assist you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  - text: Cool, SeeYa !
+  utter_positive:
+  - text: Thanks ya, have a nice day :)
+  utter_out_of_scope:
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_goodbye:
+  - text: Bye
+  - text: Goodbye!
+  - text: Accha to hum chlte hai !
+  - text: Alvidaa!
+  - text: Bye, was nice talking to you!
+  - text: Bye bye!
+  utter_iamabot:
+  - text: I am a Gabby, powered by Rasa.
+  utter_telljoke:
+  - text: Your life is a joke. Hahaha !
+  - text: JOKE!
+  utter_admission_info:
+  - text: Thank you for showing intrest in GLBITM, you can proceed to this [link](https://www.glbitm.org/admission-process/)
+  - text: Let me have a look, click [here](https://www.glbitm.org/admission-process/) to get admission details
+  utter_programs:
+  - text: Here are the programs offered - B.Tech, MBA , MCA
+  - text: Under graduate courses include B.Tech and Post Graduate includes MCA and MBA
+  utter_branch_info:
+  - text: You can get information [here](https://www.glbitm.org/courses-and-admission/)
+  utter_eligibility_regular:
+  - text: Check [here](https://www.glbitm.org/admission-process/) to check
+  utter_eligibility_lateral:
+  - text: Check [here](https://www.glbitm.org/admission-process-lateral/) to check
+  utter_fee_info:
+  - text: Click [here](https://www.glbitm.org/download-prospectus/) to get details about fees.
+  utter_hostel_info:
+  - text: Exhilarated hostel facility is offered for students at G L Bajaj Engineering College with the capacity of 1500 students in boy’s hostels with conducive and homely environment.
+  - text: GLBITM has separate hostels for boys, click for more [details](https://www.glbitm.org/hostel-facilities/)
+  utter_forms:
+  - text: Sure !, you can find this form here -> [forms](https://glbg.servergi.com:8072/OLAGLB/Student/Welcome)
+  utter_alumini:
+  - text: GLBITM Alumni Association ( GLBAA) was founded in was initiated in 2012. GLBAA facilitates and inspire alumni to contribute towards improvements in the status of GLBITM in academics, infrastructure, and industry interactions. It promotes social interactions among alumni for mutual benefit in academic and other related areas.[Know more](https://www.glbitm.org/cpage.aspx?mpgid=92&pgidtrail=170)
+  utter_career:
+  - text: Thank you so much for showing your intrest in GLBITM, for jobs visit [here](https://www.glbitm.org/current-opening/)
+  utter_students_counselling:
+  - text: GLBITM has constituted Student Counseling Cell to look after the problems of students. Students can discuss their problem, of any nature with our counselor, Contact our counsellor Dr. Anjali Midhasharan(Counsellor@glbitm.org)
+  utter_antiragging:
+  - text: We are proud to inform that GLBITM is a Ragging free Institution, To know more about Antiragging cell go to this [link](https://www.glbitm.org/anti-ragging/)
+  utter_medical:
+  - text: The institute runs a dispensary and has appointed a doctor who is available for consultation during institute hours on all working days from 04:00 pm -05:30 pm. Contact Dr. Ajay Sharma.
+  - text: for Medical Assistance, visit [here](https://www.glbitm.org/medical-facilities/)
+  utter_brochure:
+  - text: You can download latest copy of brochure from [here](https://www.glbitm.org/download-prospectus/)
+  utter_scholarship:
+  - text: For any query related to scholarship you can contact to registrar office
+  - text: For scholarship details visit their official [website](https://scholarship.up.gov.in/)
+  utter_top_company:
+  - text: Adobe, Amazon, Cisco, toppr and extramarks etc. are some of the top recruiter
+  utter_highest_package:
+  - text: Adobe and Amazon provide highest package of 27 LPA and 27.7 LPA respectively.
+  utter_mass_recruiter:
+  - text: Capgemini, Wipro, TCS, infosys and NEC etc. are the mass recruiter companies.
+  utter_placement_record_btech:
+  - text: To check B.Tech Placement record click on this [link](https://www.glbitm.org/placement-record/)
+  - text: Let me have a look....here you [go](https://www.glbitm.org/placement-record/)
+  utter_placement_record_mba:
+  - text: To check MBA Placement record click on this [link](https://www.glbitm.org/Uploads/image/glbajaj-delhivery-placement2021-tp.jpg)
+  - text: Let me have a look....here you [go](https://www.glbitm.org/Uploads/image/glbajaj-delhivery-placement2021-tp.jpg)
+  utter_placement_record_mca:
+  - text: To check MCA Placement record click on this [link](https://www.glbitm.org/Uploads/image/glbajaj-paytm-placement2021-tp.jpg)
+  - text: Let me have a look....here you [go](https://www.glbitm.org/Uploads/image/glbajaj-paytm-placement2021-tp.jpg)
+  utter_why_glbitm_for_placement:
+  - text: You should choose GLBITM because GLBITM shines on the top in B.Tech Placements every year. [click here](https://www.glbitm.org/life-at-glbajaj/)
+  utter_average_package:
+  - text: Average package for B.tech is 3.50 LPA and for MBA it is 5.11 LPA :)
+  utter_company_type:
+  - text: There are many types of companies but IT comapnies and marketing companies are main.
+  utter_about_college:
+  - text: GLBITM is the leading institution in AKTU. Read more [here](https://www.glbitm.org/best-engineering-institute-in-greater-noida)
+  - text: GLBITM has achieved excellence in academics by consistently securing the First position for consecutively 8 semesters in University academic result. [Read more...](https://www.glbitm.org/best-engineering-institute-in-greater-noida)
+  utter_where_is_glbajaj:
+  - text: Address of GLBajaj -->G. L. Bajaj Institute of Technology & Management, Plot No, 2, APJ Abdul Kalam Rd, Knowledge Park III, Greater Noida, Uttar Pradesh 201306
+  utter_glbajaj_sports:
+  - text: GLBITM has rich culture of sports. You can see details [here](https://www.glbitm.org/gym-and-sports/)
+  - text: GLBITM boasts of superior infrastructure for sports and actively creates opportunities for students to take an active part in sports competitions. Click for [more info](https://www.glbitm.org/gym-and-sports/)
+  utter_korean_concert:
+  - text: GLBITM had organised a KoreansxGLBITM in 2019, here are some [glimpse](https://www.glbitm.org/events/korean-wave-concert-2019/697)
+  - text: GLBITM had organised a KoreansxGLBITM in 2019, have a look of KoreansxGLBITM [brochure](https://www.glbitm.org/events/korean-wave-concert-2019/697)
+  utter_library:
+  - text: The library is the spinal column and the soul of G L Bajaj College and carries a vigorous role in teaching, training, research, and development. [visit here](https://www.glbitm.org/library/) for more
+  - text: The Central Library of G L Bajaj is user-focused, innovative, and excellence driven.  [visit here](https://www.glbitm.org/library/) for more
+  utter_canteen:
+  - text: For the refreshment of students & staff, canteen facilities are made available both in college and hostels.
+  - text: The institute has its own food courts, which have emerged as the students' favorite haunts. The food courts serve quick tangy bites to healthy and nutritious food.
+  utter_occasion:
+  - text: For some of the latest announcement, print media and college happenings [click here](https://www.glbitm.org/announcements/)
+  utter_clubs:
+  - text: The pillars of the Rotaract Club of GL Bajaj were laid down in the year 2014, initially starting with only a few members who knew the true value of the opportunities and the exposure that it might provide them. To know more about click [here](https://www.glbitm.org/cpage.aspx?mpgid=154&pgidtrail=205)
+  utter_infrastr:
+  - text: GL Bajaj campus bristles with well-planned and comprehensive infrastructure. The campus has well-developed Library, workshops, laboratories, computer center, auditoriums, conference rooms, lecture halls, canteen, cafeteria, hostel, mess, gym, etc. which make studying at GL Bajaj a unique and once in a lifetime experience. for more details visit [here](https://www.glbitm.org/campus-facilities/#:~:text=GL%20Bajaj%20campus%20bristles%20with,%2C%20mess%2C%20gym%2C%20etc.)
+  utter_labs:
+  - text: Labs play a very critical role in technical education. Almost every topic taught during lecture has a corresponding experiment. GL Bajaj pays great attention to its labortries and the equipment in them.  Check [this](https://www.glbitm.org/labs/)
+  utter_photos:
+  - text: To get Geotagged Photographs of Classrooms, Tutorial Rooms, Seminar Halls etc. Click [here](https://www.glbitm.org/photo-gallery)
+  utter_virtual_tour:
+  - text: To take virtual tour of GLBITM click [here](https://www.glbitm.org/virtual-tour/)
+  utter_academic_calender:
+  - text: For any yearwise or semester wise calender, you can download it from [here](https://www.glbitm.org/academic-calendar/)
+  utter_iqaf:
+  - text: The Internal Quality Assurance Cell (IQAC) of will become a part of an institution’s system and work towards realizing the goals of quality enhancement and sustenance. For complete details click [here](https://www.glbitm.org/internal-quality-assurance-cell/)
+  utter_nirf:
+  - text: The National Institutional Ranking Framework (NIRF) was approved by the MHRD and launched by Honourable Minister of Human Resource Development on 29th September 2015. click [here](https://www.glbitm.org/nirf-ranking/) for more details
+  utter_nptel:
+  - text: SWAYAM NPTEL is a programme initiated by Government of India. The objective of this effort is to take the best teaching learning resources to all. click [here](https://www.glbitm.org/nptel-local-chapter/) for more details
+  - text: To look for NPTEL Certifications visit [here](https://www.glbitm.org/nptel-local-chapter/)
+  utter_hr_portal:
+  - text: Click [this](https://portal.glbajajgroup.org/#) to visit HR portal
+  utter_publication:
+  - text: International & National Journals & Conference, Publications and Books,click [here](https://www.glbitm.org/research-and-development-publication/)
+  utter_sim:
+  - text: Click [here](http://sim.glbitm.org/ISIMGLB/LOGIN) to access SIM portal.
+  utter_contactus:
+  - text: For contact details, click [here](https://www.glbitm.org/contact-glbitm-top-college-in-up/) to visit contact page
+  - text: Click [this](https://www.glbitm.org/) and scroll to bottom to get contact details and social media links
+  utter_innovation:
+  - text: Click [here](https://www.glbitm.org/student-projects/) to have a look at innovations at GLBITM
+  utter_father:
+  - text: I'm Gabby created by Aman & Anuradha :P
+  utter_ask_anything_else:
+  - text: No worries. Let me know if there is anything else I can help you with
+  - text: No problem, anything else I can help with?
+  - text: Happy to serve you buddy, do you want me to do anything else?
+  - text: No worries. Is there anything else I can help you with?
+  utter_abuse_reply:
+  - text: Hey! that's not fair
+  - text: Please, I have feelings too!
+  - text: Please, Tameez mein !
+  - text: If you don't stop this, I've to report you!
+  - text: If you don't stop this, I'll block you!!
+  - text: Don't talk to me like that!
+  - text: that's not very nice
+  utter_reply_why_abuse:
+  - text: You are using bad words! Shame on you!
+actions:
+- action_clubs
+forms: {}
+e2e_actions: []
